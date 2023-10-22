@@ -1,33 +1,26 @@
 <template>
 	<header class="header">
 		<ul class="header__menu nav nav-pills">
-			<li class="nav-item">
-				<router-link
-					aria-current="page"
-					class="nav-link"
-					to="/"
-					>Главная
-				</router-link>
-			</li>
-			<li class="nav-item">
-				<router-link
-					class="nav-link"
-					to="/some-page"
-					>Какая-то страница
-				</router-link>
-			</li>
-			<li class="nav-item">
-				<router-link
-					class="nav-link"
-					to="/about"
-					>О нас
-				</router-link>
-			</li>
+
       <li class="nav-item">
         <router-link
             class="nav-link"
-            to="/comment"
+            to="/"
         >Comment
+        </router-link>
+      </li>
+      <li class="nav-item">
+        <router-link
+            class="nav-link"
+            to="/login"
+        >Login
+        </router-link>
+      </li>
+      <li class="nav-item">
+        <router-link
+            class="nav-link"
+            to="/registration"
+        >Registration
         </router-link>
       </li>
 

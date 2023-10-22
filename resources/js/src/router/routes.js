@@ -1,25 +1,26 @@
-import Home from '@/pages/Home.vue';
-import SomePage from '@/pages/SomePage.vue';
-import About from '@/pages/About.vue';
 import Comment from '@/pages/Comment.vue';
+import Login from '@/User/Login.vue';
+import Registration from '@/User/Registration.vue';
 
 const routes = [
-	{
-		path: '/',
-		component: Home,
-	},
-	{
-		path: '/some-page',
-		component: SomePage,
-	},
-	{
-		path: '/about',
-		component: About,
-	},
-	{
-		path: '/comment',
-		component: Comment,
-	},
+
+
+    {
+        path: '/',
+        component: Comment,
+    },
+    {
+        path: '/login',
+        component: Login,
+    },
+    {
+        path: '/comment',
+        component: Comment,
+    },
+    {
+        path: '/registration',
+        component: Registration,
+    },
 ];
 
 export default routes;

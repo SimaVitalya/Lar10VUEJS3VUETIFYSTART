@@ -1,4 +1,4 @@
-# Laravel 10 + Vue 3 + jwt
+# Laravel 10 + Vue 3 + Vuetify + jwt
 npm install |
 composer install |
 add .env |
